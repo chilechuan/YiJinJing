@@ -17,10 +17,12 @@ public class ThirdFragment extends Fragment{
 
     private View view;
 
+
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.fragment_third, container, false);
+        String aaa ="";
         return view;
     }
 }
