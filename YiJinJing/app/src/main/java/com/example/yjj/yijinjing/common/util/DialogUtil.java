@@ -5,4 +5,9 @@ package com.example.yjj.yijinjing.common.util;
  */
 
 public class DialogUtil {
+
+    public DialogUtil(){
+
+    }
+
 }
