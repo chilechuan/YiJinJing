@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- 颜色大全 -->
+    <color name="lavender">#cb569c</color>
+    <color name="deepblue">#5677ad</color>
+    <color name="white">#ffffff</color>
+    <color name="green">#7bca3d</color>
+
+    <!-- 中灰色字体 -->
+    <color name="font_gray_color">#888888</color>
+
+    <!-- 中灰色 -->
+    <color name="gray_color">#999999</color>
+    <color name="press_gray_color">#D9D9D9</color>
+
+    <!--浅灰色-->
+    <color name="gray_e1e1e1">#e1e1e1</color>   <!--FE9D4D-->
+</resources>
