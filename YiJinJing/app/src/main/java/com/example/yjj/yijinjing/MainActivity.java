@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         this.supportRequestWindowFeature(Window.FEATURE_NO_TITLE);//去除标题栏
         setContentView(R.layout.activity_main);
 
-        initViewForXml();//初始化view
+        initViewFromXml();//初始化view
         initListener();//设置监听事件
         initData();//初始化数据
         initViewPagerListener();//ViewPager监听事件
@@ -130,7 +130,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     /**
      * 初始化view
      */
-    private void initViewForXml() {
+    private void initViewFromXml() {
         tvTitle = (TextView) findViewById(R.id.tv_title);
         tvTabHome = (TextView) findViewById(R.id.tv_tab_home);
         tvTabSecond = (TextView) findViewById(R.id.tv_tab_second);

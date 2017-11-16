@@ -4,11 +4,13 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
 
-    <!-- 颜色大全 -->
+    <!-- 常用颜色 -->
     <color name="lavender">#cb569c</color>
     <color name="deepblue">#5677ad</color>
     <color name="white">#ffffff</color>
     <color name="green">#7bca3d</color>
+    <color name="black">#000000</color>
+    <color name="red">#ff0000</color>
 
     <!-- 中灰色字体 -->
     <color name="font_gray_color">#888888</color>

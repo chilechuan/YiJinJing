@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 旋转动画 -->
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromDegrees="0"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:toDegrees="1080">
+
+    <shape
+        android:innerRadiusRatio="3"
+        android:shape="ring"
+        android:thicknessRatio="49"
+        android:useLevel="false" >
+        <gradient
+            android:centerColor="#96cbea"
+            android:centerY="0.50"
+            android:endColor="#8494e3"
+            android:startColor="#98feb1"
+            android:type="sweep"
+            android:useLevel="false" />
+    </shape>
+
+</rotate>

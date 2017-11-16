@@ -15,6 +15,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!-- 我的 -->
+        <!-- 探索发现 -->
+        <activity android:name=".common.myactivity.TestActivity"/>
+        <!-- 倒计时 -->
+        <activity android:name=".common.myactivity.CountDownActivity"/>
     </application>
 
 </manifest>
