@@ -25,6 +25,7 @@ public class CountDownActivity extends BaseViewActivity implements View.OnClickL
     private boolean pauseBool = false;
 
     private Thread countThread;
+    private String sre = "";
     Handler hanlder = new Handler() {
         @Override
         public void handleMessage(Message msg) {
