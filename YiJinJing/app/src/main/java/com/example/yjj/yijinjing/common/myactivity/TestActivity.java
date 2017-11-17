@@ -18,6 +18,7 @@ public class TestActivity extends BaseViewActivity implements View.OnClickListen
 
     /* 界面view */
     private TextView tvCountDown;//倒计时
+    private TextView tvRecyclerView;//RecyclerView
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -32,8 +33,11 @@ public class TestActivity extends BaseViewActivity implements View.OnClickListen
     @Override
     public void onClick(View v) {
         switch (v.getId()){
-            case R.id.tv_count_down:
+            case R.id.tv_count_down://倒计时
                 startActivitys(CountDownActivity.class);
+                break;
+            case R.id.tv_recycler_view://RecyclerView
+                startActivitys(RecycleViewActivity.class);
                 break;
         }
     }
@@ -50,11 +54,13 @@ public class TestActivity extends BaseViewActivity implements View.OnClickListen
     @Override
     public void initViewFromXml() {
         tvCountDown = (TextView) findViewById(R.id.tv_count_down);
+        tvRecyclerView = (TextView) findViewById(R.id.tv_recycler_view);
     }
 
     @Override
     public void initListener() {
         tvCountDown.setOnClickListener(this);
+        tvRecyclerView.setOnClickListener(this);
     }
 
     @Override

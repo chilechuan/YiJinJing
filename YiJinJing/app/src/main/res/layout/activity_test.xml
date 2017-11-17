@@ -9,9 +9,20 @@
         android:id="@+id/tv_count_down"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@color/red"
         android:layout_marginTop="20dp"
         android:text="倒计时"
         android:textSize="20sp"
-        android:textColor="@color/red"/>
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/tv_recycler_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:layout_marginTop="10dp"
+        android:text="RecyclerView"
+        android:textSize="20sp"
+        android:textColor="@color/white"/>
 
 </LinearLayout>

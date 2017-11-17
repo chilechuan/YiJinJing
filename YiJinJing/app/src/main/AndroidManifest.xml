@@ -20,6 +20,8 @@
         <activity android:name=".common.myactivity.TestActivity"/>
         <!-- 倒计时 -->
         <activity android:name=".common.myactivity.CountDownActivity"/>
+        <!-- RecyclerView -->
+        <activity android:name=".common.myactivity.RecycleViewActivity"/>
     </application>
 
 </manifest>
