@@ -6,6 +6,7 @@ import android.support.v7.widget.RecyclerView;
 import com.example.yjj.yijinjing.R;
 import com.example.yjj.yijinjing.adapter.GridViewAdapter;
 import com.example.yjj.yijinjing.base.BaseViewActivity;
+import com.example.yjj.yijinjing.common.util.DividerGridItemDecoration;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -56,6 +57,7 @@ public class GridViewActivity extends BaseViewActivity {
     public void fillView() {
         mAdapter = new GridViewAdapter(this, mDataList);
         rlvGrid.setLayoutManager(new GridLayoutManager(this, 4));
+        rlvGrid.addItemDecoration(new DividerGridItemDecoration(this));
         rlvGrid.setAdapter(mAdapter);
     }
 }

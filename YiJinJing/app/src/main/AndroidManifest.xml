@@ -22,6 +22,8 @@
         <activity android:name=".common.myactivity.CountDownActivity"/>
         <!-- RecyclerView -->
         <activity android:name=".common.myactivity.RecycleViewActivity"/>
+        <!-- GridViewActivity -->
+        <activity android:name=".common.myactivity.GridViewActivity"/>
     </application>
 
 </manifest>

@@ -19,6 +19,7 @@ public class TestActivity extends BaseViewActivity implements View.OnClickListen
     /* 界面view */
     private TextView tvCountDown;//倒计时
     private TextView tvRecyclerView;//RecyclerView
+    private TextView tvGridView;//GridLayoutManager
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -39,6 +40,9 @@ public class TestActivity extends BaseViewActivity implements View.OnClickListen
             case R.id.tv_recycler_view://RecyclerView
                 startActivitys(RecycleViewActivity.class);
                 break;
+            case R.id.tv_gridview://GridLayoutManager
+                startActivitys(GridViewActivity.class);
+                break;
         }
     }
 
@@ -55,12 +59,14 @@ public class TestActivity extends BaseViewActivity implements View.OnClickListen
     public void initViewFromXml() {
         tvCountDown = (TextView) findViewById(R.id.tv_count_down);
         tvRecyclerView = (TextView) findViewById(R.id.tv_recycler_view);
+        tvGridView = (TextView) findViewById(R.id.tv_gridview);
     }
 
     @Override
     public void initListener() {
         tvCountDown.setOnClickListener(this);
         tvRecyclerView.setOnClickListener(this);
+        tvGridView.setOnClickListener(this);
     }
 
     @Override
