@@ -20,6 +20,8 @@ public class TestActivity extends BaseViewActivity implements View.OnClickListen
     private TextView tvCountDown;//倒计时
     private TextView tvRecyclerView;//RecyclerView
     private TextView tvGridView;//GridLayoutManager
+    private TextView tvListView;//ListView
+    private TextView tvJson;//Json test
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -43,6 +45,12 @@ public class TestActivity extends BaseViewActivity implements View.OnClickListen
             case R.id.tv_gridview://GridLayoutManager
                 startActivitys(GridViewActivity.class);
                 break;
+            case R.id.tv_lv://ListView
+                startActivitys(ListViewActivity.class);
+                break;
+            case R.id.tv_json://json test
+                startActivitys(JsonActivity.class);
+                break;
         }
     }
 
@@ -60,6 +68,8 @@ public class TestActivity extends BaseViewActivity implements View.OnClickListen
         tvCountDown = (TextView) findViewById(R.id.tv_count_down);
         tvRecyclerView = (TextView) findViewById(R.id.tv_recycler_view);
         tvGridView = (TextView) findViewById(R.id.tv_gridview);
+        tvListView = (TextView) findViewById(R.id.tv_lv);
+        tvJson = (TextView) findViewById(R.id.tv_json);
     }
 
     @Override
@@ -67,6 +77,8 @@ public class TestActivity extends BaseViewActivity implements View.OnClickListen
         tvCountDown.setOnClickListener(this);
         tvRecyclerView.setOnClickListener(this);
         tvGridView.setOnClickListener(this);
+        tvListView.setOnClickListener(this);
+        tvJson.setOnClickListener(this);
     }
 
     @Override
